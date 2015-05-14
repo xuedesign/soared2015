@@ -1,0 +1,43 @@
+.menulist, .menulist ul {
+ margin: 0;
+ padding: 1px;
+ width: 170px;
+ list-style: none}
+
+.menulist ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 170px}
+ 
+.menulist li ul{
+  top:5px; 
+  left:210px;
+  background:#FFF;
+  padding:5px 10px 10px;
+  border:1px solid #CCC;
+  padding-right:35px}
+
+.menulist li {position: relative}
+
+.menulist li a {
+ display: block;
+ padding: 3px 4px 3px 30px;
+ color: #000;
+ text-decoration: none;
+ margin: 0}
+
+* html .menulist li a { border-width: 0; margin: 1px}
+.menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
+ color: #FFF;
+ background-color: #F07A18;
+ padding: 2px 5px 4px 29px;
+ margin: 0}
+.menulist a.highlighted {
+ color: #FFF;
+ background-color: #F6B51D;
+ margin: 0}
+.menulist a .subind {float: right}
+*:first-child+html .menulist li { float: left; width: 100%}
+* html .menulist li { float: left; height: 1%}
+* html .menulist a { height: 1%}

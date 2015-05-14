@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^(.+)\.aspx$ /sql.php
+
+#RewriteRule ^(.+)\.aspx$ / [L,R=301]
