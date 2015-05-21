@@ -2,7 +2,8 @@
 
 	Title: CSS for xuedeisgn
 	Author: Elmo Wu (by xuedesign studio)
-	Date: 2014/09
+	version: 1.5
+	Date: 2015/05
 
 ***********************************************************************************************
 		1 通用
@@ -18,7 +19,7 @@
 		  3.1 首頁
 		  3.2 產品頁
 		  3.3 聯絡我們
-		     		
+		4.新增修改		     		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -697,4 +698,35 @@ aside li ul{ padding-left:30px}
 	width:490px;
 	height:577px;
 	border:1px solid #D7D7D7;
-	padding:10px 0 0 10px}						   
+	padding:10px 0 0 10px}
+
+/* 4. 新增修改
+===============================================================================================*/
+#item_logo{ display:block; width:1162px; margin:0 auto 40px}
+#item_logo h4{
+	display:block;
+	position:relative;
+	text-align:center;
+	font-size:1.25em;
+	letter-spacing:3px;
+	color:#565656;
+	border-bottom:1px solid #B0AC8E;
+	margin-bottom:45px}
+#item_logo span{
+	display:block;
+	position:absolute;
+	top:-20px;
+	left:44%;
+	width:150px;
+	height:25px;
+	padding-top:10px;
+	background:#FFF}
+#item_logo ul{
+	display:block;
+	width:850px;
+	margin:0 auto}
+#item_logo li{
+	display: inline-block;
+	margin:0 25px}
+#item_logo li img{}
+#item_logo li p{ display:none} 							   
