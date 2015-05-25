@@ -113,7 +113,7 @@ nav{
 nav li{
 	display:inline-block; 
 	text-indent:-9999px}
-	.nav{ 
+.nav{ 
     display:block;
 	margin-left:105px}
 .nav li{
@@ -432,7 +432,7 @@ aside li ul{ padding-left:30px}
 	margin-right:30px;
 	text-shadow: 0 0 5px #9C9C9C;
 	letter-spacing:1px}	
-#box_tab-02 li a{ margin-bottom:15px}	
+#box_tab-02 li a{ margin-bottom:13px}	
 #box_tab li a:hover, #box_tab li a.tabin, #box_tab-02 li a:hover, #box_tab-02 li a.tabin{ 
     text-decoration:none; 
 	background:url(../images/btn_tab.png) 0 -41px no-repeat; 
@@ -665,22 +665,34 @@ aside li ul{ padding-left:30px}
 .ban-ms01{ background:url(../images/mini-stage/pic_msbanner.jpg) no-repeat}
 
 /*鋁擠系列*/
-#list_products-04{ width:888px; padding:0 3px 40px}
-#list_products-04 ul{}
-#list_products-04 li{
+.list_products-04{ width:888px; padding:0 3px 40px}
+.list_products-04 li{
 	display:block;
+	position:relative;
 	float:left;
-	/*width:180px;
-	height:180px;*/
-	margin:0 15px 20px}
-#list_products-04 span{
-	display:block;
-	width:174px;
-	height:188px;
-	padding:0 8px 8px;
+	width:194px;
+	height:204px;
+	margin:0 12px 30px;
 	border:1px solid #E6E6E6}
-#list_products-04 img{ width:174px; height:174px; margin:0; padding:10px 0}	
-#list_products-04 h5{ line-height:35px; color:#464748; text-align:center}						
+.list_products-04 img{
+	display:block;
+	position:absolute;
+	top:0;
+	left:8px;
+	width:174px;
+	height:174px;
+	border:1px solid #E6E6E6}
+.list_products-04 div{
+	display: block;
+	position:absolute;
+	top:163px;
+	left:8px;
+	width:176px;
+	height:31px;
+	background:url(../images/bg_pplist-span.png) repeat-x}
+.list_products-04 h6{ font-size:1em; text-align:center; color:#fff; line-height:30px}		
+.list_products-04 li:hover, .list_products-04 a:hover img{ border:1px solid #ad3713}
+.list_products-04 a:hover>div{ background:url(../images/bg_pplist-span.png) 0 -31px}				
 
 /*3-3 聯絡我們*/
 #company_info{
@@ -733,4 +745,32 @@ aside li ul{ padding-left:30px}
 	display: inline-block;
 	margin:0 25px}
 #item_logo li img{}
-#item_logo li p{ display:none} 							   
+#item_logo li p{ display:none}
+
+.abgne_tab{
+	clear: left;
+	width: 890px;
+	margin: 10px 0}
+#tabs{
+    width: 100%;
+	height: 42px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-top:-15px}
+#tabs li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	padding:0 15px}
+#tabs li a {
+	display: block;
+	padding: 0 20px;
+	color: #000;
+	text-decoration: none}
+#tabs li a span{ padding:0 15px; margin-bottom:20px; letter-spacing:1px}	
+#tabs li a:hover { color:#F07A18}
+#tabs li.active{ border-bottom:3px solid #F07A18}
+#tabs li.active a{ font-size:1em; font-weight:bold; color:#F07A18}
+.tab_container { clear: left; width: 100%}
+.tab_container .tab_content { padding: 20px 0 }							   
