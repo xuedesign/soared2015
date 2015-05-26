@@ -161,6 +161,9 @@ footer{
 	color:#FFF;
 	text-align:center}
 footer p{
+	display:block;
+	width:494px;
+	margin:0 auto; 
 	text-align:center;
 	font-size:.813em;
 	line-height:28px;
@@ -174,33 +177,7 @@ footer li{
 	text-shadow: 1px 1px 5px #A0A0A0}
 footer a:link {text-decoration:none; color:#fff}
 footer a:visited {text-decoration:none; color:#fff}
-footer a:hover {text-decoration:underline; color:#84210D}
-
-
-.footer{ 
-    display:block;
-    width:100%;
-	min-width:1240px;
-	height:90px;
-    background: url(../images/bg_footer.png) repeat-x;
-    margin-top: -90px;
-	color:#FFF;
-	text-align:center}
-.footer p{
-	text-align:center;
-	font-size:.813em;
-	line-height:28px;
-	letter-spacing:1px}
-.footer ul{ padding-top:11px}	
-.footer li{
-	display:inline;
-	font-size:.938em;
-	line-height:25px;
-	padding: 0 10px 0;
-	text-shadow: 1px 1px 5px #A0A0A0}
-.footer a:link {text-decoration:none; color:#fff}
-.footer a:visited {text-decoration:none; color:#fff}
-.footer a:hover {text-decoration:underline; color:#84210D}		
+footer a:hover {text-decoration:underline; color:#84210D}	
 	 
 /* 2.5 頁面中間區塊 */	
 #container{
@@ -685,7 +662,7 @@ aside li ul{ padding-left:30px}
 .list_products-04 div{
 	display: block;
 	position:absolute;
-	top:163px;
+	top:160px;
 	left:8px;
 	width:176px;
 	height:31px;

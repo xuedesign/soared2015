@@ -1,0 +1,55 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	version: 1
+	Date: 2015/05
+
+***********************************************************************************************/
+body{
+	background:#f8f9fb;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#3a3a3a}
+form{margin:0; padding:0}
+img{border:0}
+.clean{ clear:both}
+.hidden{ display:none}
+
+#wrap{
+	display:block;
+	width:800px;
+	min-height:430px;
+	padding:20px}
+#info_left{
+	display:block;
+	float:left;
+	width:280px;
+	padding-right:20px}
+#info_left img{
+	width:120px;
+	height:120px;
+	border:1px solid #e1e1e1;
+	margin-right: 10px}	
+#info_left .txt-o{ font-size:.938em; font-weight:bold; color:#f50; padding-left:5px}
+#info_left ul{
+	display:block;
+	padding-top:15px}
+#info_left li{
+	font-size:.938em;
+	line-height:30px;
+	border-bottom:1px dashed #CCCCCC;
+	padding:5px 0;
+	text-shadow: 1px 1px 0 #FEFEFF;}
+#info_left .txt_sh{ padding-left:75px}		
+
+#info_right{
+	display:block;
+	float:right;
+	width:500px}
+#info_right img{
+	width:498px;
+	border:1px solid #e1e1e1}		
+
+
