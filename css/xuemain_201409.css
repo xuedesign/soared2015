@@ -724,6 +724,12 @@ aside li ul{ padding-left:30px}
 #item_logo li img{}
 #item_logo li p{ display:none}
 
+/*鋁擠系列*/
+.ban-aluminum01{ background:url(../images/aluminum-extrusions/pic_abbanner-01.jpg) no-repeat}
+.ban-aluminum02{ background:url(../images/aluminum-extrusions/pic_abbanner-02.jpg) no-repeat}
+.ban-aluminum03{ background:url(../images/aluminum-extrusions/pic_abbanner-03.jpg) no-repeat}
+.ban-aluminum04{ background:url(../images/aluminum-extrusions/pic_abbanner-04.jpg) no-repeat}
+.ban-aluminum05{ background:url(../images/aluminum-extrusions/pic_abbanner-05.jpg) no-repeat}
 .abgne_tab{
 	clear: left;
 	width: 890px;
@@ -750,4 +756,4 @@ aside li ul{ padding-left:30px}
 #tabs li.active{ border-bottom:3px solid #F07A18}
 #tabs li.active a{ font-size:1em; font-weight:bold; color:#F07A18}
 .tab_container { clear: left; width: 100%}
-.tab_container .tab_content { padding: 20px 0 }							   
+.tab_container .tab_content { padding: 20px 0}							   
