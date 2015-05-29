@@ -20,7 +20,7 @@ img{border:0}
 #wrap{
 	display:block;
 	width:800px;
-	min-height:450px;
+	min-height:430px;
 	padding:20px}
 #info_left{
 	display:block;
@@ -33,6 +33,7 @@ img{border:0}
 	border:1px solid #e1e1e1;
 	margin-right: 10px}	
 #info_left .txt-o{ font-size:.938em; font-weight:bold; color:#f50; padding-left:5px}
+#info_left h3{ font-size:.938em; color:#F07A18; padding-bottom:8px}
 #info_left ul{
 	display:block;
 	padding-top:15px}
@@ -40,6 +41,7 @@ img{border:0}
 	font-size:.938em;
 	line-height:30px;
 	border-bottom:1px dashed #CCCCCC;
+	margin-right:25px;
 	padding:5px 0;
 	text-shadow: 1px 1px 0 #FEFEFF;}
 #info_left .txt_sh{ padding-left:75px}		
@@ -49,7 +51,7 @@ img{border:0}
 	float:right;
 	width:500px}
 #info_right img{
-	width:450px;
+	max-width:450px;
 	border:1px solid #e1e1e1}		
 
 
