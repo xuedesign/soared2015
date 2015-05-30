@@ -730,6 +730,7 @@ aside li ul{ padding-left:30px}
 .ban-aluminum03{ background:url(../images/aluminum-extrusions/pic_abbanner-03.jpg) no-repeat}
 .ban-aluminum04{ background:url(../images/aluminum-extrusions/pic_abbanner-04.jpg) no-repeat}
 .ban-aluminum05{ background:url(../images/aluminum-extrusions/pic_abbanner-05.jpg) no-repeat}
+.ban-aluminum06{ background:url(../images/aluminum-extrusions/pic_abbanner-06.jpg) no-repeat}
 .abgne_tab{
 	clear: left;
 	width: 890px;
@@ -756,4 +757,14 @@ aside li ul{ padding-left:30px}
 #tabs li.active{ border-bottom:3px solid #F07A18}
 #tabs li.active a{ font-size:1em; font-weight:bold; color:#F07A18}
 .tab_container { clear: left; width: 100%}
-.tab_container .tab_content { padding: 20px 0}					   
+.tab_container .tab_content { padding: 20px 0}
+
+#box_example{
+	display:block;
+	width:770px;
+	margin:0 auto 50px auto}
+#box_example div{ display:block; margin-bottom:30px}	
+#box_example img{ margin:0 0 3px 0;}
+#box_example p{ font-style:italic; font-size:.75em; line-height:22px; padding:0; margin:0}
+#box_example .fleft{ display:block; float:left}
+#box_example .fright{ display:block; float:right}						   
