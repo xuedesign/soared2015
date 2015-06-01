@@ -716,11 +716,11 @@ aside li ul{ padding-left:30px}
 	background:#FFF}
 #item_logo ul{
 	display:block;
-	width:850px;
+	width:100%;
 	margin:0 auto}
 #item_logo li{
 	display: inline-block;
-	margin:0 25px}
+	margin:0 18px}
 #item_logo li img{}
 #item_logo li p{ display:none}
 
