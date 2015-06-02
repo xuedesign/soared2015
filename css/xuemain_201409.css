@@ -109,7 +109,7 @@ h1 a{ display:block;
 /* 2.2 網站主選單 */
 nav{ 
     display:block;
-	margin-left:105px}
+	/*margin-left:105px*/}
 nav li{
 	display:inline-block; 
 	text-indent:-9999px}
@@ -119,11 +119,11 @@ nav li{
 .nav li{
 	display:inline-block; 
 	text-indent:-9999px}
-.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06{ 
+.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06, .nav_07{ 
     display:block; 
-	height:28px; 
+	height:33px; 
 	background:url(../images/bg_nav.png) no-repeat}
-.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06{ width:103px}	
+.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06, .nav_07{ width:103px}	
 .nav_01{ background-position: 0 0}
 .nav_01:hover, .nav_01.navin{ background-position: 0 -33px}
 .nav_02{ background-position: 0 -66px}
@@ -136,6 +136,8 @@ nav li{
 .nav_05:hover, .nav_05.navin{ background-position: 0 -297px}
 .nav_06{ background-position: 0 -330px}
 .nav_06:hover, .nav_06.navin{ background-position: 0 -363px}
+.nav_07{ background-position: 0 -396px}
+.nav_07:hover, .nav_07.navin{ background-position: 0 -428px}
 
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
