@@ -140,7 +140,7 @@ nav li{
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
 body > #wrap {height: auto; min-height: 100%}
-#main_content{ padding-bottom:80px}
+#main_content{ padding-bottom:90px}
 .clearfix:after {content: ".";
     display: block;
     height: 0;
@@ -161,12 +161,14 @@ footer{
 	color:#FFF;
 	text-align:center}
 footer p{
-	display:block;
+	display: block;
 	width:494px;
-	margin:0 auto; 
+	height:25px;
+	margin:0 auto;
+	padding:0;
 	text-align:center;
 	font-size:.813em;
-	line-height:28px;
+	line-height:22px;
 	letter-spacing:1px}
 footer ul{ padding-top:11px}	
 footer li{
