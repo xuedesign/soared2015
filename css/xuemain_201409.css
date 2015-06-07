@@ -435,7 +435,7 @@ aside li ul{ padding-left:30px}
 	background: url(../images/bg_ph4.png) no-repeat;
 	height:28px;
 	margin-bottom:30px}
-		
+
 .txtlong-4{ width:128px; width:133px !important;}/*!important的標示寬度修改 #20141016*/
 .txtlong-5{ width:160px; width:165px; background-position: 0 -28px}	
 .txtlong-6{ width:192px; width:198px !important; background-position: 0 -56px}	
@@ -507,6 +507,7 @@ aside li ul{ padding-left:30px}
 	background:url(../images/icon_arrow.png) 0 5px no-repeat;
 	margin:10px 15px;
 	padding: 0 0 5px 20px}
+.download li:last-child{border-bottom:none}	
 .list-type-01, .list-type-02{ display:block; padding-bottom:30px}	
 .list-type-01 li{
 	display:inline;
@@ -645,36 +646,6 @@ aside li ul{ padding-left:30px}
 /*精密微調滑台*/
 .ban-ms01{ background:url(../images/mini-stage/pic_msbanner.jpg) no-repeat}
 
-/*鋁擠系列*/
-.list_products-04{ width:888px; padding:0 3px 40px}
-.list_products-04 li{
-	display:block;
-	position:relative;
-	float:left;
-	width:194px;
-	height:204px;
-	margin:0 12px 30px;
-	border:1px solid #E6E6E6}
-.list_products-04 img{
-	display:block;
-	position:absolute;
-	top:0;
-	left:8px;
-	width:174px;
-	height:174px;
-	border:1px solid #E6E6E6}
-.list_products-04 div{
-	display: block;
-	position:absolute;
-	top:160px;
-	left:8px;
-	width:176px;
-	height:31px;
-	background:url(../images/bg_pplist-span.png) repeat-x}
-.list_products-04 h6{ font-size:1em; text-align:center; color:#fff; line-height:30px}		
-.list_products-04 li:hover, .list_products-04 a:hover img{ border:1px solid #ad3713}
-.list_products-04 a:hover>div{ background:url(../images/bg_pplist-span.png) 0 -31px}				
-
 /*3-3 聯絡我們*/
 #company_info{
 	display:block;
@@ -771,4 +742,40 @@ aside li ul{ padding-left:30px}
 #box_example img{ margin:0 0 3px 0;}
 #box_example p{ font-style:italic; font-size:.75em; line-height:22px; padding:0; margin:0}
 #box_example .fleft{ display:block; float:left}
-#box_example .fright{ display:block; float:right}						   
+#box_example .fright{ display:block; float:right}
+
+.list_products-04{ width:888px; padding:0 3px 40px}
+.list_products-04 li{
+	display:block;
+	position:relative;
+	float:left;
+	width:194px;
+	height:204px;
+	margin:0 12px 30px;
+	border:1px solid #E6E6E6}
+.list_products-04 img{
+	display:block;
+	position:absolute;
+	top:0;
+	left:8px;
+	width:174px;
+	height:174px;
+	border:1px solid #E6E6E6}
+.list_products-04 div{
+	display: block;
+	position:absolute;
+	top:160px;
+	left:8px;
+	width:176px;
+	height:31px;
+	background:url(../images/bg_pplist-span.png) repeat-x}
+.list_products-04 h6{ font-size:1em; text-align:center; color:#fff; line-height:30px}		
+.list_products-04 li:hover, .list_products-04 a:hover img{ border:1px solid #ad3713}
+.list_products-04 a:hover>div{ background:url(../images/bg_pplist-span.png) 0 -31px}
+
+/*無牙螺桿*/
+.ban-uhing01{ background:url(../images/uhing/pic_uhingban-01.jpg) no-repeat}
+.ban-uhing02{ background:url(../images/uhing/pic_uhingban-02.jpg) no-repeat}	
+.ban-uhing03{ background:url(../images/uhing/pic_uhingban-03.jpg) no-repeat}	
+.ban-uhing04{ background:url(../images/uhing/pic_uhingban-04.jpg) no-repeat}
+.box_list{ margin:-20px 25px 20px}								   
