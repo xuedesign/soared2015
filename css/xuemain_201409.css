@@ -778,4 +778,8 @@ aside li ul{ padding-left:30px}
 .ban-uhing02{ background:url(../images/uhing/pic_uhingban-02.jpg) no-repeat}	
 .ban-uhing03{ background:url(../images/uhing/pic_uhingban-03.jpg) no-repeat}	
 .ban-uhing04{ background:url(../images/uhing/pic_uhingban-04.jpg) no-repeat}
-.box_list{ margin:-20px 25px 20px}								   
+.box_list{ margin:-20px 25px 20px}
+
+/*測微器*/
+.ban-micromaster{ background: url(../images/micrometer/pic_microbanner.jpg) no-repeat}
+								   
