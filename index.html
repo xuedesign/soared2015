@@ -4,8 +4,6 @@
 <title>翔盛技研有限公司</title>
 <meta charset="utf-8" lang="zh-tw">
 <meta http-equiv="Content-Language" content="zh-tw">
-<meta name="description" content="翔盛技研有限公司，為專業的傳動零件代理商,線性滑軌、滾珠螺桿、軸承、聯軸器等產品銷售及專業服務,讓您能用經濟實惠的費用，擁有耐用、出色的客製零件."/>
-<meta name="keywords" content="線性滑軌,滾珠螺桿,軸承,聯軸器"/>
 <meta name="Author" content="xuedesign" />
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
@@ -13,11 +11,14 @@
 <link rel="stylesheet" href="css/xuemain_201409.css"/>
 <link rel="stylesheet" href="css/google.css"/>
 <link rel="stylesheet" href="css/flexslider.css"/>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="swfobject.js"></script>
-<script type="text/javascript" src="showobj.js"></script>
-<script type="text/javascript">
-showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.swf","flash.html");
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.js"></script>
+<script src="cus.js"></script>
+<script language="JavaScript" type="text/javascript">
+cusObject.sIMG("yd_fla","images/flash.jpg",1155,21,"/");
+cusObject.sIMG("xsheng","images/line.png","100%","3","/");
 </script>
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
@@ -27,13 +28,31 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
 <![endif]-->
 </head>
 <body>
+
+<div class="advbox">
+<div class="advpic">
+<div class="col-xs-12 nopadding it_1">公 司 搬 遷 通 知<a href="javascript:void(0);" class="closebtn">X</a></div>
+<div class="col-xs-12 nopadding it_2">
+<span style="font-size:1.2em; font-weight:bold; width:100%; text-align:center; float:left;">親愛的  客戶/同業先進/協力廠商  鈞鑑：</span><br/><br/>
+本公司為提昇客戶服務品質及致力於提供同仁良好的工作環境，謹訂於107年07月16日(星期一)將公司遷移至以下新址，由於跨區域，原服務電話有改號，傳真不變。 搬遷期間諸多不便，尚請見諒。<br/><br/>
+自107年07月16日(星期一)起相關業務諮詢、送貨、款項通知及通訊地址請依下列連絡方式更新，敬祈 舊雨新知繼續支持與愛護。<br/><br/>
+<b>【新廠資料】</b><br/>
+電話號碼：(03) 496-6085<br/>
+傳真號碼：(03) 280-6016<br/>
+公司地址：(324)桃園市平鎮區鎮鏞路108-17號<br/><br/>
+商祺 順頌！<br/>
+翔盛技研有限公司全體同仁 敬上 107.06.25<br/>
+</div>
+</div>	
+</div>
+
    <div id="wrap">
       <div id="main_content" class="clearfix">
           <header>
               <section id="header_main">
-                  <h1><a href="index.html">翔盛技研有限公司</a></h1>
+                  <h1><a href="index.html">滾珠螺桿、線性滑軌</a></h1>
                   <div id="box_topright">
-                     <p>客服專線：(03)280-6015</p>
+                     <p>客服專線：(03)496-6085</p>
                      <nav>
                      	<ul>
                      		<li><a href="products_list.html" title="產品介紹" class="nav_01">產品介紹</a></li>
@@ -55,9 +74,16 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
                  <ul class="slides">
                     <li><img src="images/pic_banner-01.jpg" width="1163" height="278" alt="滾珠螺桿系列"></li>
                     <li><img src="images/pic_banner-02.jpg" width="1163" height="278" alt="線性滑軌系列"></li>
-                    <li><img src="images/pic_banner-03.jpg" width="1163" height="278" alt="無牙螺桿系列"></li>
+                    <li><img src="images/pic_banner-03.jpg" width="1163" height="278" alt="滾珠螺桿系列"></li>
                  </ul>
-              </div>             
+              </div>  
+              
+              <div id="xsheng">
+              
+
+              
+              </div>
+                        
               <div id="box_profile">
                  <article id="main_profile">
                       <h3>翔盛簡介</h3>
@@ -90,8 +116,7 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
                              </a>
                           </li>
                       </ul>
-                      <br class="clean">
-                      
+                      <br class="clean">                      
                       <h4>其他產品</h4>
                       <ul class="box_plist-02">
                       	  <li class="pright_18">
@@ -115,22 +140,22 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
                                <div><h5>螺桿固定支撐座</h5></div>
                              </a></li>
                       	  <li>
-                             <a href="products/coupling/characteristics.html" title="聯軸器">
+                             <a href="products/coupling/characteristics.html" >
                                <img src="images/pic_plistshot-06.jpg" alt="滾珠螺桿"/>
                                <div><h5>聯軸器</h5></div>
                              </a></li>
                           <li class="pright_18">
-                             <a href="products/linear-bearings/linearbearings_list.html" title="線性軸承">
+                             <a href="products/linear-bearings/linearbearings_list.html" >
                                <img src="images/pic_plistshot-07.jpg" alt="滾珠螺桿"/>
                                <div><h5>線性軸承</h5></div>
                              </a></li>
                           <li class="pright_18">
-                             <a href="products/dualshaft-of-slilde-guide/characteristics.html" title="軸心式滑軌">
+                             <a href="products/dualshaft-of-slilde-guide/characteristics.html" >
                                <img src="images/pic_plistshot-08.jpg" alt="滑軌"/>
                                <div><h5>軸心式滑軌</h5></div>
                              </a></li>
                           <li class="pright_18">
-                             <a href="products/self-lubricant-bearings/characteristics.html" title="自潤軸承系列">
+                             <a href="products/self-lubricant-bearings/characteristics.html">
                                <img src="images/pic_plistshot-09.jpg" alt="軸承"/>
                                <div><h5>自潤軸承系列</h5></div>
                              </a></li>
@@ -140,23 +165,23 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
                                <div><h5>軸承系列</h5></div>
                              </a></li>
                           <li>
-                             <a href="products/universal-joint/universal-joint-list.html" title="萬向接頭">
+                             <a href="products/universal-joint/universal-joint-list.html" >
                                <img src="images/pic_plistshot-11.jpg" alt="接頭"/>
                                <div><h5>萬向接頭</h5></div>
                              </a></li>
                           <li class="pright_18">
-                             <a href="products/micro-stage/characteristics.html" title="精密微調滑台">
+                             <a href="products/micro-stage/characteristics.html">
                                <img src="images/pic_plistshot-12.jpg" alt="精密微調滑台"/>
                                <div><h5>精密微調滑台</h5></div>
                              </a></li>
                           <li class="pright_18">
-                             <a href="products/micrometer/characteristics.html" title="測微器">
+                             <a href="products/micrometer/characteristics.html">
                                <img src="images/pic_plistshot-15.jpg" alt="測微器"/>
                                <div><h5>測微器</h5></div>
                              </a></li>   
                           <li class="pright_18">
-                             <a href="products/aluminum-extrusions/material.html" title="鋁擠系列">
-                               <img src="images/pic_plistshot-13.jpg" alt="滾珠螺桿"/>
+                             <a href="products/aluminum-extrusions/material.html">
+                               <img src="images/pic_plistshot-13.jpg" alt="鋁擠系列"/>
                                <div><h5>鋁擠系列</h5></div>
                              </a></li>
                        </ul>
@@ -200,7 +225,7 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
    <div itemscope itemtype ="http://data-vocabulary.org/Organization">
          <p>2014&copy;翔盛技研有限公司 SOAR Inc.. All Rights Reserved. <a href="sitemap.html">sitemap</a></p>
          <ul>
-            <li><span itemprop="tel">電話：03-280-6015</span></li>
+            <li><span itemprop="tel">電話：03-496-6085</span></li>
             <li>傳真：03-280-6016</li>
             <li>統一編號：53875537</li>
             <li>電子信箱：<a href="mailto:tech@soared.com.tw" title="聯絡我們">tech@soared.com.tw</a></li>
@@ -208,8 +233,8 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
            <span itemprop="address" itemscope 
       itemtype="http://data-vocabulary.org/Address"></span>
       <span itemprop="street-address">
-     地址：桃園市中壢區長江路76號</span></li><br/>
-            <li>翔盛技研：線性滑軌、滾珠螺桿、<a href="../bearing.html">軸承</a>、<a href="coupling.html">聯軸器</a>等產品銷售及專業服務</li>
+     地址：(324)桃園市平鎮區鎮鏞路108-17號</span></li><br/>
+            <li>翔盛技研：線性滑軌、滾珠螺桿、軸承、聯軸器等產品銷售及專業服務</li>
          </ul> 
          </div>  
       </footer>
@@ -234,6 +259,17 @@ showobj("flash.swf", "images/flash.jpg", "yd_fla", "1155", "21","expressInstall.
   ga('create', 'UA-53772946-4', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".advbox").show();
+	$(".advbox").animate({top:"200px"},1000);
+	$(".closebtn").click(function(){
+		$(".advbox").fadeOut(500);
+	})
+})
 </script>
 </body>
 </html>

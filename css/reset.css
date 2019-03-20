@@ -49,3 +49,18 @@ table {
 	border-spacing: 0;
 	text-align: center;
 }
+
+
+/* advbox */
+.advbox{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+.advbox{width:500px;position:fixed;left:50%;top:0;z-index: 99999; background:#fff; margin-left:-250px;
+background-clip: padding-box;border:6px solid rgba(255, 255, 255, 0.7);
+-moz-box-shadow:2px 2px 1px #969696;
+-webkit-box-shadow:2px 2px 1px #969696;
+box-shadow:0px 0px 3px #969696;}
+.advbox .advpic{position:relative;overflow:hidden; float:left;}
+.advbox .advpic .closebtn{display:block;width:14px;height:22px;line-height:22px;font-size:14px; font-weight:bold;color:#fff;overflow:hidden;position:absolute;
+right:15px;top:10px;z-index:99; text-align:center;}
+.it_1{ background:#f07b18; color:#fff; text-align:center; font-size:1.5em; font-weight:bold; padding:15px 0;}
+.it_1 a{ color:#FFF;}
+.it_2{ padding:15px;position:relative;}
