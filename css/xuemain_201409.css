@@ -365,17 +365,32 @@ aside li ul{ padding-left:30px}
 	margin-bottom:38px}
 #list_products h4, #list_products-02 h4{ display:none}
 .box_plist-01 li, .box_plist-03 li{ float:left; margin:0 8px 20px}
-.box_plist-01 li a, .box_plist-02 li a, #item_products li a{
+.box_plist-01 li a, 
+.box_plist-02 li a, #item_products li a{
 	display: block;
 	position:relative;
 	padding:8px;
 	border:1px solid #E6E6E6}
 .box_plist-01 li a{ width:545px}	
 .box_plist-03 li a{ width:411px}
-.box_plist-01 li a:hover, .box_plist-01 a:hover>img, .box_plist-02 li a:hover, .box_plist-02 a:hover>img, #item_products li a:hover, #item_products a:hover>img, .box_plist-03 li a:hover, .box_plist-03 a:hover>img, .box_plist-04 li a:hover, .box_plist-04 a:hover>img{ 
+.box_plist-01 li a:hover, 
+.box_plist-01 a:hover>img, 
+.box_plist-02 li a:hover, 
+.box_plist-02 a:hover>img, 
+#item_products li a:hover, 
+#item_products a:hover>img, 
+.box_plist-03 li a:hover, 
+.box_plist-03 a:hover>img, 
+.box_plist-04 li a:hover, 
+.box_plist-04 a:hover>img{ 
     border:1px solid #ad3713}
-.box_plist-01 a>img, .box_plist-02 a>img, .box_plist-03 a>img, .box_plist-04 a>img, #item_products a>img{ border:1px solid #cacaca}
-.box_plist-01 a>div, .box_plist-02 a>div, #item_products a>div{
+.box_plist-01 a>img, 
+.box_plist-02 a>img, 
+.box_plist-03 a>img, 
+.box_plist-04 a>img, #item_products a>img{ border:1px solid #cacaca}
+.box_plist-01 a>div, 
+.box_plist-02 a>div, 
+#item_products a>div{
 	display:block;
 	position:absolute;
 	bottom:12px;
@@ -383,19 +398,27 @@ aside li ul{ padding-left:30px}
 	background:url(../images/bg_pplist-span.png) repeat-x}
 .box_plist-01 a>div{ width:544px}	
 .box_plist-03 a>div{ width:412px}
-.box_plist-01 a:hover>div, .box_plist-02 a:hover>div, .box_plist-03 a:hover>div, .box_plist-04 a:hover>div, #item_products a:hover>div{ 
+.box_plist-01 a:hover>div, 
+.box_plist-02 a:hover>div, 
+.box_plist-03 a:hover>div, 
+.box_plist-04 a:hover>div, #item_products a:hover>div{ 
     background:url(../images/bg_pplist-span.png) 0 -31px}	
-.box_plist-01 h5, .box_plist-02 h5, #maincon .box_plist-03 h5, #maincon .box_plist-04 h5{
+.box_plist-01 h5, 
+.box_plist-02 h5, #maincon 
+.box_plist-03 h5, #maincon 
+.box_plist-04 h5{
 	position:absolute;
 	bottom:3px;
 	font-size:1em;
 	letter-spacing:3px;
 	color:#FFF;
 	padding-left:35px}
-.box_plist-01 h5, .box_plist-02 h5{ line-height:25px; background:url(../images/icon_arrow.png) 15px 6px no-repeat}
+.box_plist-01 h5, 
+.box_plist-02 h5{ line-height:25px; background:url(../images/icon_arrow.png) 15px 6px no-repeat}
 #maincon .box_plist-03 h5, #maincon .box_plist-04 h5{ line-height:18px; background:url(../images/icon_arrow.png) 15px 3px no-repeat}
 			
-.box_plist-02 li, .box_plist-04 li, #item_products li{ float:left; margin:0 8px 20px}
+.box_plist-02 li, 
+.box_plist-04 li, #item_products li{ float:left; margin:0 8px 20px}
 .box_plist-02 li a{ width:183px}
 .box_plist-02 a>div{ width:184px}
 
