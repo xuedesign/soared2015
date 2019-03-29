@@ -2,7 +2,7 @@
  (function () {
         var options = {
             //facebook: "783553025052670", // Facebook page ID
-            line: "//line.me/R/ti/p/%40fij8467d", // Line QR code URL
+            line: "//line.me/R/ti/p/%40xyh8247x", // Line QR code URL
             email: "tech@soared.com.tw", // Email
             call: "03-496-6085", // Call phone number
             company_logo_url: "//www.soared.com.tw/images/logo-chat.jpg", // URL of company logo (png, jpg, gif)
