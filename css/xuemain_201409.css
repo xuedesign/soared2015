@@ -366,7 +366,8 @@ aside li ul{ padding-left:30px}
 #list_products h4, #list_products-02 h4{ display:none}
 .box_plist-01 li, .box_plist-03 li{ float:left; margin:0 8px 20px}
 .box_plist-01 li a, 
-.box_plist-02 li a, #item_products li a{
+.box_plist-02 li a, 
+#item_products li a{
 	display: block;
 	position:relative;
 	padding:8px;
@@ -387,7 +388,8 @@ aside li ul{ padding-left:30px}
 .box_plist-01 a>img, 
 .box_plist-02 a>img, 
 .box_plist-03 a>img, 
-.box_plist-04 a>img, #item_products a>img{ border:1px solid #cacaca}
+.box_plist-04 a>img, 
+#item_products a>img{ border:1px solid #cacaca}
 .box_plist-01 a>div, 
 .box_plist-02 a>div, 
 #item_products a>div{
@@ -471,13 +473,16 @@ aside li ul{ padding-left:30px}
 #maincon{ 
     display:block; 
 	margin-bottom:30px}
-#maincon h4, #item_products h4{
+#maincon h4, 
+#item_products h4,
+.main_note h4{
 	font-family:"NotoSansHant-Light","微軟正黑體","Microsoft JhengHei";
 	font-size:1.188em;
 	line-height:28px;
 	color:#FFF;		
 	letter-spacing:13px;
 	padding-left:5px}
+.main_note h4{}
 .txtlong-4, .txtlong-5, .txtlong-6, .txtlong-7, .txtlong-8, .txtlong-9, .txtlong-12{
 	display:block;
 	background: url(../images/bg_ph4.png) no-repeat;
@@ -816,7 +821,7 @@ aside li ul{ padding-left:30px}
 	left:8px;
 	width:176px;
 	height:31px;
-	background:url(../images/bg_pplist-span.png) repeat-x}
+	background:url(../images/bg_pplist-span.png) repeat-x} 
 .list_products-04 h6{ font-size:1em; text-align:center; color:#fff; line-height:30px}		
 .list_products-04 li:hover, .list_products-04 a:hover img{ border:1px solid #ad3713}
 .list_products-04 a:hover>div{ background:url(../images/bg_pplist-span.png) 0 -31px}
@@ -830,4 +835,10 @@ aside li ul{ padding-left:30px}
 
 /*測微器*/
 .ban-micromaster{ background: url(../images/micrometer/pic_microbanner.jpg) no-repeat}
-								   
+
+/*自動化設備*/
+.ban-automation01{ background: url(../images/automation-equipment-development/pic_aedbanner-01.jpg) no-repeat}
+.ban-automation02{ background: url(../images/automation-equipment-development/pic_aedbanner-02.jpg) no-repeat}
+#box_auto{ display: block; width: 100%; /*margin-bottom: 30px*/}
+#box_auto li{ display: inline-block; width: 49%;}
+#box_auto li img{ display: block; width: 100%; height: auto; margin: 0 0 15px 5px}
