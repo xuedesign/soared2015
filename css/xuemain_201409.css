@@ -646,8 +646,14 @@ aside li ul{ padding-left:30px}
 /*線性模組*/
 .ban-ms{ background:url(../images/mono-stage/pic_msbanner.jpg) no-repeat}
 .my_tab-p td{ font-size:0.875em}
-.my_tab-n{width:100%; border:1px solid #C5C5C5; margin:10px 0 30px}
-.my_tab-n th{
+.my_tab-n,
+.my_tab-n40{
+    border:1px solid #C5C5C5; 
+    margin:10px 0 30px}
+.my_tab-n{ width:100%}
+.my_tab-n40{ width:40%}
+.my_tab-n th,
+.my_tab-n40 th{
 	font-size:0.813em;
 	line-height:22px;
 	border:1px solid #CFCFCF;
@@ -655,7 +661,8 @@ aside li ul{ padding-left:30px}
 	text-align:center;
 	vertical-align:middle;
 	padding:5px}	
-.my_tab-n td{
+.my_tab-n td,
+.my_tab-n40 td{
 	font-size:0.813em;
 	line-height:22px;
 	text-align:center;
@@ -664,11 +671,13 @@ aside li ul{ padding-left:30px}
 	border-collapse: collapse; 
 	border-spacing: 1px;
 	border:1px solid #CFCFCF}
-#maincon .my_tab-n td img{
+#maincon .my_tab-n td img,
+#maincon .my_tab-n40 td img{
 	text-align:center;
 	margin:0 auto;
 	padding:0}	
-#maincon .my_tab-n .imgm{ padding:10px 0}	
+#maincon .my_tab-n .imgm,
+#maincon .my_tab-n40 .imgm{ padding:10px 0}	
 
 /*轉造級滾珠螺桿*/
 .ban-rb01{ background:url(../images/rolled-ballscrews/pic_rbbanner.jpg) no-repeat}
