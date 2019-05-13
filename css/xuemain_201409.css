@@ -848,6 +848,8 @@ aside li ul{ padding-left:30px}
 /*自動化設備*/
 .ban-automation01{ background: url(../images/automation-equipment-development/pic_aedbanner-01.jpg) no-repeat}
 .ban-automation02{ background: url(../images/automation-equipment-development/pic_aedbanner-02.jpg) no-repeat}
+.ban-automation03{ background: url(../images/automation-equipment-development/pic_aedbanner-03.jpg) no-repeat}
+.ban-automation04{ background: url(../images/automation-equipment-development/pic_aedbanner-04.jpg) no-repeat}
 #box_auto{ display: block; width: 100%; /*margin-bottom: 30px*/}
 #box_auto li{ display: inline-block; width: 49%;}
 #box_auto li img{ display: block; width: 100%; height: auto; margin: 0 0 15px 5px}
